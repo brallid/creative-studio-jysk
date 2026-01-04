@@ -5,7 +5,7 @@ environment    = "development"
 # --- Service Names ---
 backend_service_name  = "cstudio-backend-dev"
 frontend_service_name = "cstudio-frontend-dev" # This is the Cloud Run service name
-firebase_site_id      = "YOUR_FIREBASE_SITE_ID"       # This is the Firebase Hosting Site ID
+firebase_site_id      = "" # (Optional) Custom Firebase Hosting Site ID, if empty defaults to the gcp_project_id
 
 # --- GitHub Repo Details ---
 github_conn_name   = "gh-repo-owner-con"
